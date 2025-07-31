@@ -115,11 +115,15 @@ sh
 - Please Click on [this link ] (#)to see the live deployment of this project
 ## 👥 Authors <a name="authors"></a>
 
+
 👤* *NGALA DEZY BOBOH
 
 - GitHub: [NGALA DEZY BOBOH](https://github.com/daisyclair)
 
- FUTURE FEATURES 
+👤* *ACHA RADLEY
+
+- GitHub: [ACHA RADLEY](https://github.com/Radley-code)
+  
 
  ## 🔭 Future Features <a name="future-features"></a>
 
