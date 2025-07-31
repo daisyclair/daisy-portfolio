@@ -6,7 +6,7 @@
 }
 
 /* Media Queries for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .desktop-menu,
   .desk_social,
   .home_desk_bg {
@@ -147,7 +147,7 @@
 }
 
 .diff_cards span {
-  background: url("../images/mob_lone_bg.svg");
+  background: url("../assets/images/mob_lone_bg.svg");
   background-size: cover;
   background-position: center;
   padding: 100px 163px;
@@ -212,7 +212,7 @@
   width: 327px;
   height: 368px;
   border: none;
-  background: url("../images/projects_bg.svg");
+  background: url("../assets/images/projects_bg.svg");
   color: #fff;
   background-size: cover;
   background-position: center;
@@ -272,7 +272,7 @@
   padding: 12px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   /* About section styling  */
   .about {
     display: flex;
@@ -373,8 +373,7 @@
   .about-card ul li {
     font-size: 20px;
   }
-
-
+    
   /* Contact Section styling */
   .contact {
     display: flex;
@@ -487,4 +486,47 @@
     border-radius: 15px;
     border-bottom: 1px solid #fff;
   }
+} 
+/*TABLET VERSION*/
+@media (min-width: 768px) and(max-width: 1024px){
+
+  .projects{
+    gap: 20px;
+  } 
+
+.sim_cards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.diff_card{
+  display: flex;
+  flex-direction: row;
+}
+.diff_cards{
+  flex-direction: row;
+  gap: 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+.about{
+  justify-content: center;
+  align-items: center;
+}
+.about-cards{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.mob-input input,.similar input{
+  width: 700px;
+}
+.similar textarea{
+  width: 700;
+}
+
 }
